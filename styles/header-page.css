@@ -1,0 +1,32 @@
+#header-page {
+    padding: 20px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    color: var(--brand-color);
+    font: bold 20px/160% var(--font-family);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+#primary-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    line-height: 0;
+}
+#primary-menu a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+
+}
+img[src="assets/icons/Profile-pic.svg"] {
+    height: 40px;
+    width: 40px;
+}
