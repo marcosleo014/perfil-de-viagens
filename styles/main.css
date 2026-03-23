@@ -12,3 +12,7 @@ main img {
     width: 286px;
     height: 286px;
 }
+
+main img:hover {
+    outline: 4px var(--brand-color) solid;
+}
