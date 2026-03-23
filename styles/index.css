@@ -1,6 +1,6 @@
 @import url(global.css);
 @import url(nav.css);
-@import url(perfil.css);
+@import url(header.css);
 @import url(galeria.css);
 @import url(footer.css);
 
@@ -9,4 +9,5 @@ body {
     font: var(--text);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
+    min-width: 940px;
 }

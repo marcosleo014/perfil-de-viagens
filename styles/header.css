@@ -1,0 +1,35 @@
+#profile-header {
+    padding-block: 32px;
+}
+
+#perfil {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    width: 592px;
+}
+
+#perfil img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+}
+
+#perfil div h1 {
+    color: var(--text-color-primary);
+    font: var(--text-lg);
+    margin-bottom: 8px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    width: 280px;
+}
+
+#info li {
+    display: flex;
+    gap: 8px;
+}
