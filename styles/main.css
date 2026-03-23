@@ -1,0 +1,14 @@
+main {
+    padding: 24px 32px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+main img {
+    width: 286px;
+    height: 286px;
+}
