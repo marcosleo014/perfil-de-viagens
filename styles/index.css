@@ -1,5 +1,5 @@
 @import url(global.css);
-@import url(header-page.css);
+@import url(nav.css);
 @import url(perfil.css);
 @import url(galeria.css);
 @import url(footer.css);
@@ -7,13 +7,6 @@
 body {
     background-color: var(--background-color);
     font: var(--text);
-    color: var(--text-color-primary);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: var(--surface-color);
-}
-
-#container-principal {
-    max-width: 1280px;
+    color: var(--text-color-secondary);
+    background-color: var(--background-color);
 }

@@ -1,0 +1,31 @@
+#primary-nav {
+    padding-block: 20px;
+
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#logo span {
+    color: var(--brand-color);
+    font: bold 20px/160% var(--font-family);
+}
+
+#primary-menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font: var(--text-md);
+}
+
+#primary-menu li a:not(:has(img)) {
+    padding: 4px;
+}
+
+img[src="assets/icons/Profile-pic.svg"] {
+    height: 40px;
+    width: 40px;
+}
